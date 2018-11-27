@@ -6,6 +6,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+@media (min-width: 992px){
 	.left {
 		box-sizing: border-box;
 		padding: 10px;
@@ -18,10 +22,6 @@
 		float: left;
 		font-size: 1em;
 	}
-}
-
-@media (min-width: 992px){
-	
 }
 
 
@@ -55,7 +55,13 @@ header {
   height: 100%;
   padding: 0px;
   width: auto;
+  margin-left: 30px;
 }
+
+.navbar ul li {
+	margin-left: 0px;
+}
+
 
 section {
 
@@ -69,11 +75,9 @@ aside {
 
 }
 
-footer {
-
-}
-
 .row {
+	overflow: hidden;
+	margin: 2px;
 
 }
 
@@ -86,6 +90,28 @@ footer {
   background-size: cover;
   width: 100vw;
   height: auto;
+  overflow: hidden;
+ }
 
+.container2 {
 
+}
+
+li {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+footer {
+	color: white;
+	background-color: rgba(100,100,100,1);
+	width: 100%;
+	border: gray solid 1px;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.logoimg {
+	margin-top: 6px;
 }
