@@ -70,9 +70,14 @@ header {
 
 .thumbnail {
 	margin-top: 15px;
+	margin-left: 40px;
 	border-color: rgba(2,132,218,0.8);
-	padding-bottom: 10px;
 	overflow: hidden;
+}
+
+.pd {
+	padding-bottom: 10px;
+	padding-top: 30px;
 }
 
 .largo {
@@ -120,8 +125,8 @@ header {
 }
 
 .thumbnail img {
-	border-radius: 5px;
-	padding: 0px;
+	border-radius: 10px;
+
 }
 
 h4 {
